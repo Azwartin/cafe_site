@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Кафе "У Такеши" - Контакты</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href ="css/style.css" rel ="stylesheet"/>
+    </head>
+    <body>
+        <header class = "main_header">
+           <a href ="index.html">
+                <div class = "logo"></div>
+                <div class = "header_title">                
+                    <div class = "title_big">
+                        Кафе &shy; "У Такеши"
+                    </div>
+                    <div class = "title_litle">
+                        японская кухня
+                    </div>
+                </div>
+            </a>
+            <nav class = "main_nav">
+                <span>
+                    <a href = "index.html">Главная</a>
+                </span>
+                <span>
+                    <a href = "cafe.html">Кафе</a>
+                </span>
+                <span>
+                    <a href = "menu.html">Меню</a>
+                </span>
+                <span>
+                    <a href = "contacts.html">Контакты</a>
+                </span>
+            </nav>
+        </header>
+        <div class = "content">
+            <div class = "recall">
+                <h2>
+                    ОБРАТНАЯ СВЯЗЬ
+                </h2>
+                <p>
+                    Когда вы выбираете наши суши, отзывы о нашей работе являются для нас самой 
+                    важной информацией, поэтому просим не скупиться на слова.
+                </p>
+                <p>
+                    Если для вас важна быстрая доставка суши, отзывы о качестве обслуживания 
+                    вы можете направить нам с помощью специальной формы на этом сайте.
+                    Мы реагируем на все замечания и принимаем необходимые меры.
+                    К тому же ваши отзывы о суши-барах и японских ресторанах интересны не только нам,
+                    но и людям, только открывающим для себя японскую кухню.
+                </p>
+                <input type="button" value = "Оставить отзыв" class = "btn_recall">
+                <div class = "form_recall_outer">
+                    <div class = "form_recall_inner">
+                        <h3><span>Служба качества «Якитории»</span></h3>
+                        <form>
+                            <div>
+                                <div><span>Имя*</span></div>
+                                <div><input type = "text" name = "name"></div>
+                            </div>
+                            <div>
+                                <div><span>Фамилия</span></div>
+                                <div><input type = "text" name = "surname"></div>
+                            </div>
+                            <div>
+                                <div><span>Телефон*</span></div>
+                                <div><input type = "tel" name = "phone"></div>
+                            </div>
+                            <div>
+                                <div><span>Email*</span></div>
+                                <div><input type = "email" name = "email"></div>
+                            </div>
+                            <div>
+                                <div><span>Текст*</span></div>
+                                <div><textarea name = "message" rows="6"></textarea></div>
+                            </div>
+                            <input type = "submit" value = "Отправить">
+                            <span>
+                                Поля, обязательные для заполнения, помечены*
+                            </span>
+                        </form>
+                    </div>
+                </div>
+                <script src="js/jquery.min.js"></script>
+                <script src ="js/recall.js"></script>
+            </div>
+        </div>
+        <div class = "aside_menu">
+            <div class = "popular_recipe">
+                <h2>Популярные рецепты</h2>
+                <ul>
+                    <li>
+                        <a href = 'dish.html'>Якитори (жареная курица)</a>
+                    </li>
+                    <li>
+                        <a href = 'dish.html'>Цукуне (пирожки с куриным фаршем)</a>
+                    </li>
+                    <li>
+                        <a href = 'dish.html'>Окономикки (блинчики из различных ингридиентов)</a>
+                    </li>
+                    <li>
+                        <a href = 'dish.html'>Миуэтуки (тушеная курица)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class = "contact">
+                <h2>Контакты</h2>
+                <div class = "address">
+                    Кафе "У Такеши"<br>
+                    Москва<br>
+                    Новый Арбат, 19
+                </div>
+            </div>
+        </div>
+        <footer>
+            ©2016 Кафе "У Такеши"
+        </footer>
+    </body>
+</html>

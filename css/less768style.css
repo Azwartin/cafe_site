@@ -1,0 +1,15 @@
+@media screen and (min-width:768px) {
+    html, body{
+        min-width: 320px;
+    }
+
+    .content{
+        width:92%;
+        margin: 0 4%;
+        float:left;
+    }
+
+    .aside_menu{
+        display:none;
+    }
+}
